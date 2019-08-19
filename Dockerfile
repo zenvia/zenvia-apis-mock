@@ -1,10 +1,10 @@
-FROM java:8
+FROM alpine:latest
 
-ADD ./wiremock/__files /wiremock/__files
-ADD ./wiremock/mappings /wiremock/mappings
+RUN apk add wget
 
 WORKDIR /wiremock
 
-RUN ["wget", "http://repo1.maven.org/maven2/com/github/tomakehurst/wiremock-standalone/2.7.1/wiremock-standalone-2.7.1.jar"]
+RUN ["wget", "https://raw.githubusercontent.com/jeffersonsc/gozenviamock/release/bin/gozenviamock"]
+RUN chmod +x gozenviamock
 
-CMD java -jar wiremock-standalone-2.7.1.jar --port $PORT --verbose
+ENTRYPOINT [ "./gozenviamock", "server" ]
