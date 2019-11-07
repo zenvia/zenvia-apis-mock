@@ -1,0 +1,112 @@
+{
+  "sendSmsMultiResponse" : {
+    "sendSmsResponseList" : [ {
+      "statusCode" : "00",
+      "statusDescription" : "Ok",
+      "detailCode" : "000",
+      "detailDescription" : "Message Sent",
+      "parts" : [
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00001",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00002",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00003",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00004",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00005",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00006",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00007",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00008",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00009",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00010",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00011",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00012",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00013",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00014",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00015",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00016",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00017",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00018",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00019",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00020",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00021",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00022",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00023",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00024",
+          "order" : 1
+        },
+        {
+          "partId" : "09620680-26cb-4082-84fb-ada133e00025",
+          "order" : 1
+        }
+      ]
+    } ]
+  }
+}

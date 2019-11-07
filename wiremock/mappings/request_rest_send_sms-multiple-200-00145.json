@@ -1,0 +1,27 @@
+{
+    "request": {
+        "method": "POST",
+        "urlPath": "/api-rest/services/send-sms-multiple",
+        "basicAuth": {
+            "username": "user",
+            "password": "pass"
+        },
+        "bodyPatterns": [ 
+            {"matchesJsonPath": "$[?(@.sendSmsMultiRequest.sendSmsRequestList.size() == 145)]"},
+            {"matchesJsonPath": "$[?(@.sendSmsMultiRequest.sendSmsRequestList[*].to)]"},
+            {"matchesJsonPath": "$[?(@.sendSmsMultiRequest.sendSmsRequestList[*].from)]"},
+            {"matchesJsonPath": "$[?(@.sendSmsMultiRequest.sendSmsRequestList[*].msg)]"}
+        ],
+        "headers": {
+            "Content-Type": {"equalTo": "application/json"},
+            "Accept": {"equalTo": "application/json"}
+        }
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "send-sms-multiple-200-00145.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

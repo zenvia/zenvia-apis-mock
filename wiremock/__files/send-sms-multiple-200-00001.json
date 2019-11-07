@@ -1,0 +1,14 @@
+{
+  "sendSmsMultiResponse" : {
+    "sendSmsResponseList" : [ {
+      "statusCode" : "00",
+      "statusDescription" : "Ok",
+      "detailCode" : "000",
+      "detailDescription" : "Message Sent",
+      "parts" : [ {
+        "partId" : "09620680-26cb-4082-84fb-ada133e00001",
+        "order" : 1
+      } ]
+    } ]
+  }
+}
