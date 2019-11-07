@@ -2,23 +2,20 @@
     "request": {
         "method": "POST",
         "urlPath": "/api-rest/services/send-sms",
-        "basicAuth" : {
-            "username" : "abc",
-            "password" : "123"
+        "basicAuth": {
+            "username": "abc",
+            "password": "123"
         },
-        "bodyPatterns" : [ 
-            {"matchesJsonPath" : "$.sendSmsRequest[?(@.to == '5551999999200')]"},
-            {"matchesJsonPath" : "$.sendSmsRequest.from"},
-            {"matchesJsonPath" : "$.sendSmsRequest.msg"},
-            {"matchesJsonPath" : "$.sendSmsRequest.id"},
-            {"matchesJsonPath" : "$.sendSmsRequest.callbackOption"},
-            {"matchesJsonPath" : "$.sendSmsRequest.aggregateId"},
-            {"matchesJsonPath" : "$.sendSmsRequest.schedule"}  
+        "bodyPatterns": [ 
+            {"matchesJsonPath": "$.sendSmsRequest[?(@.to =~ /^55[1-9][0-9][1-9][0-9]{7,8}$/)]"},
+            {"matchesJsonPath": "$.sendSmsRequest.from"},
+            {"matchesJsonPath": "$.sendSmsRequest.msg"},
+            {"matchesJsonPath": "$.sendSmsRequest.id"}
         ],
-    	"headers": {
-            "Content-Type": { "equalTo": "application/json" },
-            "Accept": { "equalTo": "application/json" }
-	    } 
+        "headers": {
+            "Content-Type": {"equalTo": "application/json"},
+            "Accept": {"equalTo": "application/json"}
+        }
     },
     "response": {
         "status": 401,

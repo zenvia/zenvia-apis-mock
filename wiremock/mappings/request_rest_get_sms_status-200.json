@@ -2,20 +2,20 @@
     "request": {
         "method": "GET",
         "urlPath": "/api-rest/services/get-sms-status/0",
-        "basicAuth" : {
-            "username" : "user",
-            "password" : "pass"
+        "basicAuth": {
+            "username": "user",
+            "password": "pass"
         },
-    	"headers": {
-            "Content-Type": { "equalTo": "application/json" },
-            "Accept": { "equalTo": "application/json" }
+        "headers": {
+            "Content-Type": {"equalTo": "application/json"},
+            "Accept": {"equalTo": "application/json"}
 	    } 
     },
     "response": {
         "status": 200,
         "bodyFileName": "get-sms-status-200.json",
-        "headers" : {
-            "Content-Type" : "application/json"
+        "headers": {
+            "Content-Type": "application/json"
         }
     }
 }

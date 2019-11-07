@@ -2,20 +2,20 @@
     "request": {
         "method": "POST",
         "urlPath": "/api-rest/services/cancel-sms/0",
-        "basicAuth" : {
-            "username" : "user",
-            "password" : "pass"
+        "basicAuth": {
+            "username": "user",
+            "password": "pass"
         },
     	"headers": {
-            "Content-Type": { "equalTo": "application/json" },
-            "Accept": { "equalTo": "application/json" }
+            "Content-Type": {"equalTo": "application/json"},
+            "Accept": {"equalTo": "application/json"}
 	    } 
     },
     "response": {
         "status": 200,
         "bodyFileName": "cancel-sms-200.json",
-        "headers" : {
-            "Content-Type" : "application/json"
+        "headers": {
+            "Content-Type": "application/json"
         }
     }
 }
