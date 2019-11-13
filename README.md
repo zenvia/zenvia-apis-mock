@@ -4,10 +4,16 @@
 
 Full documentation about Zenvia API on [http://docs.zenviasms.apiary.io](http://docs.zenviasms.apiary.io) 
 
-## How run? 
+## How run?
+If you have cloned the repository:
 ```bash
 docker build -t zenvia/zenvia-api-mock .
 docker run -p 8080:8080 zenvia/zenvia-api-mock
+```
+
+or to download from docker hub:
+```bash
+docker run -p 8080:8080 zenapi/zenvia-api-mock
 ```
 
 
