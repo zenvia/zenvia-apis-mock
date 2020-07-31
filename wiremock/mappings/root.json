@@ -5,9 +5,9 @@
     },
     "response": {
         "status": 200,
-        "body": '{"status": "ok"}',
-        "headers" : {
-		    "Content-Type" : "application/json"
-    	}
+        "body": "{\"status\": \"ok\"}",
+        "headers": {
+            "Content-Type": "application/json"
+        }
     }
 }

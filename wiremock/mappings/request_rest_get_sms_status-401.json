@@ -2,14 +2,14 @@
     "request": {
         "method": "GET",
         "urlPath": "/api-rest/services/get-sms-status/0",
-        "basicAuth" : {
-            "username" : "abc",
-            "password" : "123"
+        "basicAuth": {
+            "username": "abc",
+            "password": "123"
         },
-    	"headers": {
-            "Content-Type": { "equalTo": "application/json" },
-            "Accept": { "equalTo": "application/json" }
-	    } 
+        "headers": {
+            "Content-Type": {"equalTo": "application/json"},
+            "Accept": {"equalTo": "application/json"}
+        } 
     },
     "response": {
         "status": 401
